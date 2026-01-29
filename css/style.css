@@ -112,30 +112,31 @@ section{
     margin-bottom: 30px;
 }
 
-.contact a{
+.contact-icon{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.contact-icons a{
     color: #fff;
     text-decoration: none;
-    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+
     
 }
 
-#backToTop {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    padding: 10px 15px;
-    font-size: 16px;
-    background: black;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    display: none; 
-    z-index: 1000;
+.contact-icons span{
+    margin-top: 6px;
+    font-size: 14px;
 }
 
-#backToTop:hover {
-    background: blue;
+.contact-icons a:hover{
+    color: grey;
 }
 
 
